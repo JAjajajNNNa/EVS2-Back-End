@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2>{{ titulo_genero }}</h2>
+    <a href="{% url 'home:inicio' %}" class="btn btn-secondary">Volver al inicio</a>
+</div>
+
+<div class="row">
+    {% if peliculas %}
+        {% for peli in peliculas %}
+        <div class="col-md-3 mb-4">
+            <div class="card h-100 shadow-sm">
+                <img src="{% static peli.imagen %}" class="card-img-top img-pelicula" alt="{{ peli.nombre }}">
+                <div class="card-body">
+                    <h5 class="card-title">{{ peli.nombre }}</h5>
+                    <p class="card-text"><strong>Año:</strong> {{ peli.anio }}</p>
+                    <p class="card-text text-secondary">{{ peli.descripcion }}</p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    {% endif %}
+</div>
+{% endblock %}
