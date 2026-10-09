@@ -56,7 +56,7 @@ def genero_accion(request):
             'descripcion': 'Con su identidad desenmascarada, Peter Parker pide ayuda a Doctor Strange, desatando consecuencias multiversales.'
         },
         {
-            'nombre': 'Wanted (Se Busca)',
+            'nombre': 'Wanted',
             'anio': 2008,
             'imagen': 'img/accion/wanted.jpg',
             'descripcion': 'Un oficinista descubre que su padre era un letal sicario y es reclutado por una antigua hermandad secreta.'
@@ -65,7 +65,7 @@ def genero_accion(request):
             'nombre': 'Rápidos y Furiosos 9',
             'anio': 2021,
             'imagen': 'img/accion/rapidos_y_furiosos_9.jpg',
-            'descripcion': 'Dom Toretto y su equipo se reúnen para detener una conspiración liderada por su peligroso hermano Jakob.'
+            'descripcion': 'Dominic Toretto y su equipo se reúnen para detener una conspiración liderada por su peligroso hermano Jakob.'
         },
         {
             'nombre': 'Capitán América: Civil War',
@@ -115,7 +115,7 @@ def genero_scifi(request):
             'nombre': 'Guardianes de la Galaxia',
             'anio': 2014,
             'imagen': 'img/scifi/guardianes_de_la_galaxia.jpg',
-            'descripcion': 'Un grupo de forajidos espaciales se alía para salvar a la galaxia de un fanático guerrero intergaláctico.'
+            'descripcion': 'Un (profe pongame un 7)grupo de forajidos espaciales se alía para salvar a la galaxia de un fanático guerrero intergaláctico.'
         },
         {
             'nombre': 'Misión Rescate (The Martian)',
@@ -136,10 +136,10 @@ def genero_scifi(request):
             'descripcion': 'Una extraña anomalía cósmica traslada a un vecindario a un entorno desconocido donde deben sobrevivir.'
         },
         {
-            'nombre': 'Resident Evil: Noche Zero',
+            'nombre': 'Resident Evil: Noche Cero',
             'anio': 2026,
             'imagen': 'img/scifi/resident_evil_noche_cero.jpg',
-            'descripcion': 'Un joven repartidor lucha por escapar de Raccoon City en las primeras horas tras desatarse un misterioso virus.'
+            'descripcion': 'Un joven repartidor lucha por escapar de Raccoon City en las primeras horas tras desatarse un misterioso virus desarrollado por la corporacion Umbrella.'
         },
         {
             'nombre': 'El Origen (Inception)',
